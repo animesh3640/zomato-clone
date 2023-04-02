@@ -59,14 +59,14 @@ body{
     
 }
 .bcard2{
-    background-image: url('bCard2.avif');
+    background-image: url('bcard2new.avif');
     padding-top:250px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
 }
 .bcard3{
-    background-image: url('bCard3.avif');
+    background-image: url('bcard3new.avif');
     padding-top:250px;
     background-repeat: no-repeat;
     background-size: cover;
