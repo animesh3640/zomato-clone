@@ -1,0 +1,127 @@
+@import url('https://fonts.cdnfonts.com/css/metropolis');
+.header{
+    background-image: url('header-image.avif');
+    color: white;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 0%;
+}
+.header > h1{
+    font-weight: 900;
+    font-size: 80px;
+} 
+body{
+    font-family: 'MetropolisNF', sans-serif;
+    
+}
+.location-logo{
+    color: rgb(184, 102, 112);
+}
+.down-logo{
+    color: gray;
+}
+.si{
+    flex-grow: 2;
+}
+
+.fc{
+    width: 60%;
+    
+    border-radius: 20px;
+}
+
+.fc-i{
+    border-radius: 10px;
+    display: flex;
+}
+nav{
+    color: white;
+}
+body{
+    color: white;
+}
+
+ 
+.card-section > .card {
+    border: 5px solid white;
+    border-radius: 2.5px ;
+    height: 5px;
+    
+}
+.bcard1{
+    background-image: url('bCard1.avif');
+    padding-top:250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.bcard2{
+    background-image: url('bCard2.avif');
+    padding-top:250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.bcard3{
+    background-image: url('bCard3.avif');
+    padding-top:250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.bcard4{
+    background-image: url('bcard4.avif');
+    padding-top:250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  
+}
+
+.ptxt{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.cb{
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+}
+.card1{
+   border-radius: 10px;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.card1 > img{
+    border-radius: 10px;
+}
+
+.card1:hover, .card1:focus, .card1:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+.forth-section{
+    background-color: rgb(255,251,247);
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    
+}
+.footer-anchors{
+    text-decoration:none; color :gray;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
